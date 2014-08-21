@@ -1,0 +1,32 @@
+{
+  "name": "netts",
+  "version": "0.0.1",
+  "description": "Node Easy Text To Speech, using TTS without pain.",
+  "author": "Yanick Rochon <yanick.rochon@gmail.com>",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "homepage": "https://github.com/yanickrochon/netts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yanickrochon/netts"
+  },
+  "bugs": {
+    "url": "https://github.com/yanickrochon/netts/issues"
+  },
+  "keywords": [
+    "tts",
+    "text",
+    "speech",
+    "pico"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "co-mocha": "^1.0.0",
+    "should": "^4.0.4"
+  },
+  "dependencies": {
+    "tmp": "0.0.24"
+  }
+}
